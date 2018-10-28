@@ -81,7 +81,9 @@ ul {
   list-style: none;
   padding: 0;
 }
-
+#brand {
+  width:100%;
+}
 #brand li {
   display: inline;
   margin-right:10px;
@@ -110,58 +112,29 @@ footer {
   color:white;
   margin-top:10px;
 }
+
 @media screen and (min-width: 480px){
-
-  #black {
-
-    display: flex;
+  #black{
     flex-direction: row;
-    padding: 5%;
+    padding:3%;
   }
-#brand {
-  width: 50%
-}
-nav{
-  width:100%;
-  text-align: right;
-}
-
-
-nav li {
-  font-family: "Arial";
-  margin-left: 1em;
-  font-size: 13px;
-  display: inline;
-
-}
-
+  footer {
+    text-align:right;
+  }
+  nav li {
+    display: inline;
+    margin-left:10px;
+  }
+  #brand {
+    width:30%
+  }
+  nav ul {
+    width:100%;
+    margin:0;
+    padding:0;
+    text-align: right;
+  }
 #sitemap {
-  width:50%;
-  display: flex;
-  flex-direction: column;
+  width:70%;
 }
-  #sitemap ul {}
-      width: 100%;
-
-  }
-footer {
-  text-align: right;
-}
-fieldset {
-  display: flex;
-  flex-direction: row;
-
-
-}
-
-button {
-  width: 30%;
-
-
-}
-
-input {
-  width: 60%;
-}
-
 }
