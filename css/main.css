@@ -8,7 +8,9 @@ body {
 
 }
 
-
+.logo {
+  width: 45%;
+}
 main{
   display: flex;
   flex-direction: column;
@@ -25,12 +27,12 @@ img {
 }
 header {
   padding:10%;
-  
+
 }
 
 p{
   color:gray;
-  font-family: "Arial, Sans-serif";
+  font-family: "Arial";
 }
 fieldset {
   display: flex;
@@ -72,17 +74,39 @@ input {
   justify-content: space-between;
   background-color: black;
   color:white;
+  padding: 10%;
 }
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
-#brand ul {
+#brand li {
   display: inline;
+  margin-right:10px;
+
 }
 
+svg, path {
+  fill:white;
+  width:30px;
+}
 
-li {
-  height: 30px;
+.logo2 {
+  width:70%;
+
+}
+nav li {
+  font-family: "Arial";
+  margin-bottom: 1em;
+  font-size: 13px;
+}
+
+footer {
+  font-size: 11px;
+  font-family: "Arial";
+  text-align: center;
+  color:white;
+  margin-top:10px;
 }
