@@ -1,0 +1,36 @@
+
+@import url('https://fonts.google.com/specimen/Poppins');
+@import url('https://fonts.google.com/specimen/Open+Sans');
+*{box-sizing: border-box;}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 10%;
+  text-align: center;
+  line-height: 2em;
+  font-family: 'Poppins';
+}
+
+#black {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  color:white;
+}
+
+ul {
+  list-style: none;
+}
+
+#brand ul {
+  display: inline;
+}
+
+
+li {
+  height: 30px;
+}
